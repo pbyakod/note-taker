@@ -36,6 +36,10 @@ Finally, click <a href = "http://localhost:3001">this link</a> to get cracking o
 
 <img src="./image.png" alt="Preview Image">
 
+## Usage
+
+If you don't want to go through the trouble of installing the entire repository on your local computer, you can simply follow <a href="https://boiling-journey-92590.herokuapp.com/">this other link</a> to view the webpage.
+
 ## Tools Implemented
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
