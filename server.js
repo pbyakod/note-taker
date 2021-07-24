@@ -41,3 +41,18 @@ app.post('/api/notes', (req, res) => {
     })
     res.send('Saved')
 })
+
+app.delete('/api/notes/:id', (req, res) => {
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error('ERROR!', err);
+        } else {
+            const id = req.params.id;
+            const modified_array = JSON.parse(data);
+            let new_notes = modified_array.filter(notes => notes.id != id);
+            fs.writeFile('./db/db.json', JSON.stringify(new_notes, null, 4), (err) =>
+                err ? console.log('ERROR!', err) : console.log('Succesfully Deleted!'));
+        }
+    });
+    res.send('Deleted');
+})
