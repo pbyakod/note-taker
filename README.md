@@ -15,7 +15,7 @@ Before starting up this program, its esseential to have a few files installed on
 First, clone this repository using your terminal/command-line interface. 
 
 ```
-git clone git@github.com:pbyakod/note_taker.git
+git clone https://github.com/pbyakod/notes-storage.git
 ```
 
 Next, install the inquirer node packages using the following command.
