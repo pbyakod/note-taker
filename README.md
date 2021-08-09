@@ -1,7 +1,5 @@
 # Note Taker
 
-## License 
-
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Short Description
@@ -15,7 +13,7 @@ Before starting up this program, its esseential to have a few files installed on
 First, clone this repository using your terminal/command-line interface. 
 
 ```
-git clone https://github.com/pbyakod/notes-storage.git
+git clone https://github.com/pbyakod/note-taker.git
 ```
 
 Next, install the inquirer node packages using the following command.
